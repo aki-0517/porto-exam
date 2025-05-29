@@ -3,7 +3,7 @@ import { BuyNow } from './components/BuyNow'
 import { ConnectWithPermissions } from './components/ConnectWithPermissions'
 import { SendTip } from './components/SendTip'
 import { SignInOut } from './components/SignInOut'
-import { useAccount, useDisconnect, useChainId } from 'wagmi'
+import { useAccount, useDisconnect } from 'wagmi'
 import { useState } from 'react'
 
 const idOrigin = 'https://id.porto.sh' // 必要に応じて環境変数で切り替え
