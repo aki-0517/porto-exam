@@ -59,7 +59,7 @@ export function SendTip(props: { address?: Address | undefined }) {
       title={status === 'disconnected' ? 'Connect your wallet to send a tip' : ''}
     >
       <h2>Tip Creator</h2>
-      <img alt="Creator Avatar" src="/creator.png" style={{ height: '120px', width: '120px' }} />
+      <img alt="Creator Avatar" src="../../public/creator.png" style={{ height: '120px', width: '120px' }} />
       <div>
         <p>Received - {format(exp1Balance ?? 0)} EXP1</p>
       </div>

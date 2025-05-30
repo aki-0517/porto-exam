@@ -33,7 +33,7 @@ export function BuyNow() {
       title={status === 'disconnected' ? 'Connect your wallet to buy the sneaker' : ''}
     >
       <h2>Buy Now</h2>
-      <img alt="Running Sneaker" src="/sneaker.png" style={{ height: '120px', width: '120px' }} />
+      <img alt="Running Sneaker" src="../../public/sneaker.png" style={{ height: '120px', width: '120px' }} />
       <form onSubmit={submit}>
         <button disabled={isPending} type="submit">
           {isPending ? 'Buying sneaker…' : 'Buy Now'}
